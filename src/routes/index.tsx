@@ -152,7 +152,8 @@ function Hero() {
               alt="Dr. Arthur Egídio em seu consultório odontológico"
               width={1200}
               height={1504}
-              className="aspect-[4/5] w-full object-cover scale-[1.15] -translate-x-[7%]"
+              className="aspect-[4/5] w-full object-cover"
+              style={{ transform: 'scale(1.20) translateX(-6%)' }}
             />
           </div>
           <div className="absolute -bottom-6 -left-4 hidden rounded-2xl border border-border bg-background/95 p-4 shadow-xl backdrop-blur md:block">
